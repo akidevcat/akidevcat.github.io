@@ -1,3 +1,4 @@
+@import "_mixins.scss";
 @import "_overrides.scss";
 
 #introduction {
@@ -12,11 +13,31 @@
   margin: auto;
   margin-top: 40vh;
   margin-bottom: 10em;
+
+  .container {
+
+    #about-me-skills {
+      text-align: right;
+      @include breakpoint(extra_small_devices) {
+        text-align: center;
+      }
+    }
+    #about-me-description {
+      text-align: left;
+      @include breakpoint(extra_small_devices) {
+        text-align: center;
+      }
+    }
+    #about-me-cv-button {
+      max-width: 60vw;
+    }
+
+  }
 }
 
 #projects {
   //max-width: 50em !important;
-  width: 55em;
+  max-width: 55em;
   margin: auto;
   margin-top: 10em;
   margin-bottom: 10em;
