@@ -43,7 +43,36 @@
   margin-bottom: 10em;
 }
 
+#projects .project-item {
+  @include breakpoint(extra_small_devices) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+#projects .project-item-row {
+  @include breakpoint(extra_small_devices) {
+    justify-content: center;
+  }
+}
+
+#projects .project-item-video {
+  @include breakpoint(extra_small_devices) {
+    min-width: 80vw;
+    padding-left: 0;
+    padding-right: 0;
+    //justify-content: center;
+  }
+}
+
 #experience {
+  max-width: 50em !important;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+#contact {
   max-width: 50em !important;
   margin: auto;
   margin-top: 10em;
