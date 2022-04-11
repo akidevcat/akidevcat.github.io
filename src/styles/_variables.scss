@@ -1,0 +1,25 @@
+$bg-primary: #0E1112;
+$bg-secondary: #121516;
+$fg-primary: #c5c8c9;
+$fg-secondary: #8e8f8f;
+$accent: #e22957;
+
+// Override bootstrap colors
+// Success will be used as accent
+$primary: $fg-primary;
+$secondary: $fg-secondary;
+$success: $accent;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "bootstrap";
+
+:root {
+    --bg-primary: #{$bg-primary};
+    --bg-secondary: #{$bg-secondary};
+    --fg-primary: #{$fg-primary};
+    --fg-secondary: #{$fg-secondary};
+    --accent: #{$accent};
+}

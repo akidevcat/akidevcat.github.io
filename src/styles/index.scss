@@ -1,0 +1,51 @@
+@import "_overrides.scss";
+
+#introduction {
+  background-color: var(--bg-secondary);
+  margin: 30vh 0px;
+  padding: 10vh 0px;
+  flex-direction: unset;
+}
+
+#about {
+  max-width: 50em !important;
+  margin: auto;
+  margin-top: 40vh;
+  margin-bottom: 10em;
+}
+
+#projects {
+  //max-width: 50em !important;
+  width: 55em;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+#experience {
+  max-width: 50em !important;
+  margin: auto;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+#background {
+  margin-top: 75px;
+  margin-left: 5px;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.0);
+  color: rgba(255, 255, 255, 0.1);
+  
+  z-index: -100;
+}

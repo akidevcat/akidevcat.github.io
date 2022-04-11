@@ -1,0 +1,94 @@
+@import "./variables.scss";
+
+body {
+    margin-top: 75px;
+    background-color: var(--bg-primary);
+}
+
+.fg-accent {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.fg-primary {
+    color: var(--fg-primary);
+    border-color: var(--fg-primary);
+}
+
+.fg-secondary {
+    color: var(--fg-secondary);
+    border-color: var(--fg-secondary);
+}
+
+.o-bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.o-bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.title {
+    color: var(--fg-primary);
+    .badge {
+        background-color: transparent;
+    }
+}
+
+.title-counter {
+    color: var(--accent);
+    font-size: 70%;
+    font-family: monospace;
+}
+
+.project-title {
+    font-family: monospace;
+}
+
+.navbar {
+    .container {
+        max-width: 100%;
+    }
+    .nav-item {
+        margin: 0px 0px;
+        //background-color: var(--bg-primary);
+        color: var(--fg-primary);
+        //min-width: 100px;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s ease-in-out;
+        &:hover,
+        &:focus {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.section-slide-1 {
+    transform: skewY(-1deg);
+}
+
+.section-slide-1-content {
+    transform: skewY(1deg);
+}
+
+.section-slide-2 {
+    transform: skewY(-2deg);
+}
+
+.section-slide-2-content {
+    transform: skewY(2deg);
+}
+
+
+.section-slide-3 {
+    transform: skewY(-3deg);
+}
+
+.section-slide-3-content {
+    transform: skewY(3deg);
+}
