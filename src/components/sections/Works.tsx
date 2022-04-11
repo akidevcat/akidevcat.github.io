@@ -53,7 +53,7 @@ export const Works = () => {
                     <div className="col d-grip me-2 pb-2 pt-2 fg-primary text-start shadow o-bg-secondary rounded">
                         <h2>TaskManagerWebAPI</h2>
                         <p>
-                        <a href="https://github.com/akiaoki/TaskManagerWebAPI" className="fg-accent">TaskManagerWebAPI</a> is a simple tasker Web API application I've made for the Akvelon internship.
+                        <a href="https://github.com/akiaoki/TaskManagerWebAPI" target="_blank" className="fg-accent">TaskManagerWebAPI</a> is a simple tasker Web API application I've made for the Akvelon internship.
                         </p>
                         <div className="container-flex mb-2">
                             <span className="badge o-bg-primary fg-secondary">ASP.NET Core</span>&ensp;
@@ -64,7 +64,7 @@ export const Works = () => {
                     <div className="col d-grip ms-2 pb-2 pt-2 fg-primary text-start shadow o-bg-secondary rounded">
                         <h2>CentreT-TelegramBot</h2>
                         <p>
-                        <a href="https://github.com/akiaoki/CentreT-TelegramBot" className="fg-accent">CentreT-TelegramBot</a> is a telegram bot (currently in development) for the Centre-T group.
+                        <a href="https://github.com/akiaoki/CentreT-TelegramBot" target="_blank" className="fg-accent">CentreT-TelegramBot</a> is a telegram bot (currently in development) for the Centre-T group.
                         </p>
                         <div className="container-flex mb-2">
                             <span className="badge o-bg-primary fg-secondary">.NET Core</span>&ensp;
@@ -80,7 +80,7 @@ export const Works = () => {
                     <div className="col d-grip me-2 mt-2 mb-2 pb-2 pt-2 fg-primary text-start shadow o-bg-secondary rounded">
                         <h2>Aki-Diary</h2>
                         <p>
-                        <a href="https://github.com/akiaoki/Aki-Diary" className="fg-accent">Aki-Diary</a> was a concept of a telegram bot that would <b>heavily</b> simplify our highschool life by fetching timetable board from the school website.
+                        <a href="https://github.com/akiaoki/Aki-Diary" target="_blank" className="fg-accent">Aki-Diary</a> was a concept of a telegram bot that would <b>heavily</b> simplify our highschool life by fetching timetable board from the school website.
                         </p>
                         <div className="container-flex mb-2">
                             <span className="badge o-bg-primary fg-secondary">Python</span>&ensp;
@@ -90,7 +90,7 @@ export const Works = () => {
                     <div className="col d-grip ms-2 mt-2 mb-2 pb-2 pt-2 fg-primary text-start shadow o-bg-secondary rounded">
                         <h2>neuralowlexternal</h2>
                         <p>
-                        <a href="https://github.com/akiaoki/neuralowlexternal" className="fg-accent">neuralowlexternal</a> is an experemental project that was focused on researching how low-level programs can interact with game engines based on the popular game CS:GO.
+                        <a href="https://github.com/akiaoki/neuralowlexternal" target="_blank" className="fg-accent">neuralowlexternal</a> is an experemental project that was focused on researching how low-level programs can interact with game engines based on the popular game CS:GO.
                         </p>
                         <div className="container-flex mb-2">
                             <span className="badge o-bg-primary fg-secondary">.NET</span>&ensp;
@@ -102,8 +102,7 @@ export const Works = () => {
                 {/* Project Item End */}
                 <div className="row align-items-center justify-content-center mt-4 mb-4">
                     <div className="col-3 d-grid">
-                        <button type="button" className="btn btn-outline-primary" onClick={() => {window.location.href = "https://github.com/akiaoki"}}>See more on GitHub</button>
-                        {/* https://github.com/akiaoki */}
+                        <button type="button" className="btn btn-outline-primary" onClick={() => window.open("https://github.com/akiaoki", "_blank", 'noopener,noreferrer')}>See more on GitHub</button>
                     </div>
                 </div>
             </div>
