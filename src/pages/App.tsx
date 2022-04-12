@@ -4,18 +4,16 @@ import './App.css';
 import Navbar from "../components/Navbar";
 import Footer from '../components/sections/Footer';
 import Home from './Home';
-import CV from './CV';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <HashRouter>
+      <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/cv' element={<CV/>} />
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <Footer/>
       {/*<Background/>*/}
     </div>
