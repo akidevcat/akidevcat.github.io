@@ -6,7 +6,7 @@
             @content;
         }
     } @else if $point == small_devices {
-        @media only screen and (min-width: 600px) {
+        @media only screen and (max-width: 600px) {
             @content;
         }
     } @else if $point == medium_devices {
@@ -14,19 +14,19 @@
             @content;
         }
     } @else if $point == large_devices {
-        @media only screen and (min-width: 992px) {
+        @media only screen and (max-width: 992px) {
             @content;
         }
     } @else if $point == extra_large_devices {
-        @media only screen and (min-width: 1200px) {
+        @media only screen and (max-width: 1200px) {
             @content;
         }
     } @else if $point == potrait_tablet {
-        @media only screen and (min-width: 361px) {
+        @media only screen and (max-width: 361px) {
             @content;
         }
     } @else if $point == landscape_tablet {
-        @media only screen and (min-width: 768px) {
+        @media only screen and (max-width: 768px) {
             @content;
         }
     }

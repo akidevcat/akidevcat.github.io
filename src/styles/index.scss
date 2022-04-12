@@ -18,13 +18,13 @@
 
     #about-me-skills {
       text-align: right;
-      @include breakpoint(extra_small_devices) {
+      @include breakpoint(medium_devices) {
         text-align: center;
       }
     }
     #about-me-description {
       text-align: left;
-      @include breakpoint(extra_small_devices) {
+      @include breakpoint(medium_devices) {
         text-align: center;
       }
     }
@@ -41,23 +41,27 @@
   margin: auto;
   margin-top: 10em;
   margin-bottom: 10em;
+  #projects-more-button {
+    max-width: 60vw;
+  }
 }
 
 #projects .project-item {
-  @include breakpoint(extra_small_devices) {
+  @include breakpoint(medium_devices) {
+    min-width: 80vw;
     margin-left: 0;
     margin-right: 0;
   }
 }
 
 #projects .project-item-row {
-  @include breakpoint(extra_small_devices) {
+  @include breakpoint(medium_devices) {
     justify-content: center;
   }
 }
 
 #projects .project-item-video {
-  @include breakpoint(extra_small_devices) {
+  @include breakpoint(medium_devices) {
     min-width: 80vw;
     padding-left: 0;
     padding-right: 0;
