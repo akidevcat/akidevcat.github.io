@@ -16,7 +16,9 @@ render(
 // Enable bootstrap tooltips
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new Tooltip(tooltipTriggerEl);
+  var tooltip = new Tooltip(tooltipTriggerEl);
+  tooltip.show();
+  return tooltip;
 });
 
 // If you want to start measuring performance in your app, pass a function
