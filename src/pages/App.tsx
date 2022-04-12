@@ -9,6 +9,7 @@ import Footer from '../components/sections/Footer';
 import Experience from '../components/sections/experience';
 import Background from '../components/Background';
 import Contact from '../components/sections/Contact';
+import  'bootstrap/dist/js/bootstrap';
 
 //ToDo investigate why /client cannot be used
 
