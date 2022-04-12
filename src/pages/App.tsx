@@ -1,27 +1,21 @@
 import React from 'react';
-import logo from '../resources/logo.svg';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from "../components/Navbar";
-import Introduction from '../components/sections/introduction';
-import About from '../components/sections/about';
-import Works from '../components/sections/Works';
 import Footer from '../components/sections/Footer';
-import Experience from '../components/sections/experience';
-import Background from '../components/Background';
-import Contact from '../components/sections/Contact';
-import  'bootstrap/dist/js/bootstrap';
-
-//ToDo investigate why /client cannot be used
+import Home from './Home';
+import CV from './CV';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Introduction/>
-      <About/>
-      <Works/>
-      <Experience/>
-      <Contact/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/cv' element={<CV/>} />
+      </Routes>
+      </BrowserRouter>
       <Footer/>
       {/*<Background/>*/}
     </div>

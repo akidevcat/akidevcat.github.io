@@ -41,7 +41,7 @@ export const About = () => {
                 </div>
                 <div className="row justify-content-center mt-2 mb-4 align-items-center">
                     <div className="col-md-3 d-grid mb-4 mt-4 d-flex justify-content-center">
-                        <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button">Download CV</button>
+                        <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button" onClick={() => {window.location.href = "cv"}}>Download CV</button>
                     </div>
                     <div className="col-1 d-grid ms-3 me-4 mt-4 mt-md-0">
                         <a href="https://github.com/akiaoki" target="_blank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="manual" title="GitHub">
