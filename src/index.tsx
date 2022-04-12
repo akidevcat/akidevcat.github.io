@@ -5,10 +5,12 @@ import './styles/index.scss';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { Tooltip } from 'bootstrap'
+import Background from './components/Background';
 
 render(
   <React.StrictMode>
     <App />
+    <Background/>
   </React.StrictMode>,
   document.getElementById('root')
 );

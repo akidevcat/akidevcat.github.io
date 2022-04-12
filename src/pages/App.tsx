@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "../components/Navbar";
 import Footer from '../components/sections/Footer';
 import Home from './Home';
+import Background from '../components/Background';
 
 function App() {
   return (
@@ -15,7 +16,6 @@ function App() {
       </Routes>
       </BrowserRouter>
       <Footer/>
-      {/*<Background/>*/}
     </div>
   );
 }

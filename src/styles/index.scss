@@ -88,12 +88,8 @@
 }
 
 #background {
-  margin-top: 75px;
-  margin-left: 5px;
   position: absolute;
   display: block;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -101,5 +97,17 @@
   background-color: rgba(0,0,0,0.0);
   color: rgba(255, 255, 255, 0.1);
   
-  z-index: -100;
+  z-index: -1;
+}
+
+.section-slide-2 {
+  content: " ";
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  // linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%)
+  // linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06))
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 5px 10px, 4px 30px;
+  pointer-events: none;
 }
