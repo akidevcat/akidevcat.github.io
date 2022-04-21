@@ -1,0 +1,85 @@
+@import "_mixins.scss";
+@import "_overrides.scss";
+
+.cv-fg-accent {
+    color: $cv-accent;
+    border-color: $cv-accent;
+}
+
+.cv-fg-primary {
+    color: $cv-fg-primary;
+    border-color: $cv-fg-primary;
+}
+
+.cv-fg-secondary {
+    color: $cv-fg-secondary;
+    border-color: $cv-fg-secondary;
+}
+
+.cv-bg-accent {
+    background-color: $cv-accent;
+}
+
+.cv-bg-primary {
+    background-color: $cv-bg-primary;
+}
+
+.cv-bg-secondary {
+    background-color: $cv-bg-secondary;
+}
+
+.page {
+    color: $cv-fg-primary;
+    background: $cv-bg-primary;
+    display: block;
+    margin: 0 auto;
+    padding: 3em 3em;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+@media print {
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+
+.cv-card {
+    border-width: 0.15em;
+    border-radius: 0em .5em .5em .5em;
+    border-color: $cv-bg-secondary;
+    background-color: rgba(0,0,0,0.0);
+}
+
+.cv-card-title {
+    font-weight: bold;
+    border-radius: .5em .5em 0em 0em;
+    background-color: $cv-bg-secondary;
+    bottom: -50px;
+}
+
+.cv-card-title-arrow {
+    @extend .cv-fg-accent;
+    font-size: .8em;
+    text-align: center;
+}
+
+.cv-point-badge {
+    @extend .cv-bg-secondary;
+}
+
+.btn-print {
+    width: 64px;
+    height: 64px;
+}
+
+.cv-vr {
+    width: 2px;
+}
+
+.cv-timeline-top {
+    height: $spacer * .5;
+    max-height: $spacer * .5;
+}

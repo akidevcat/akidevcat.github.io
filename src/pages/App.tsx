@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Footer from '../components/sections/Footer';
 import Home from './Home';
 import Background from '../components/Background';
+import CV from './CV';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/cv' element={<CV/>} />
       </Routes>
       </BrowserRouter>
       <Footer/>

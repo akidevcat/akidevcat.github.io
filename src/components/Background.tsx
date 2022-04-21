@@ -8,7 +8,6 @@ export const Background = () => {
                 const lines = document.body.innerHTML.replaceAll('</', '\n</').split('\n');
                 return lines;
                 }}
-                fdsfdfsd
             </div>
         </div>
     )
