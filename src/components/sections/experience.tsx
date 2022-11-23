@@ -17,12 +17,12 @@ export const Experience = () => {
                             </div>
                         </div>
                         <div className="col text-start ms-1 ms-md-0">
-                            <span className="badge bg-success">2022-Current</span>&ensp;
+                            <span className="badge bg-success">2022-Present</span>&ensp;
                             <span className="badge bg-success">ELMA</span>&ensp;
                             <span className="badge bg-success">Full-time</span>&ensp;
-                            <h3 className="fg-primary">.NET Full-Stack</h3>
+                            <h3 className="fg-primary">.NET Developer</h3>
                             <p className="fg-primary">
-                                ELMA BPM Development.
+                                My current workplace. My workload includes ELMA development, debugging, and bugfixing as a .NET Full-Stack programmer.
                             </p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export const Experience = () => {
                             <span className="badge bg-success">Full-time</span>&ensp;
                             <h3 className="fg-primary">Unity C# Developer</h3>
                             <p className="fg-primary">
-                                I'd been working on several Unity projects building app architecture, multiplayer interactions, partial game design, procedural generation systems, and other.
+                                I'd been working on several Unity projects building app architecture, multiplayer interactions, game design, procedural generation systems, user interface, and other.
                             </p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ export const Experience = () => {
                             <h3 className="fg-primary">Innopolis University</h3>
                             <p className="fg-primary">
                                 Innopolis University was the place where I gathered a lot of new experience, friends, and started my new chapter in life. I am very grateful to all the people who helped me during that time.
-                                Due to personal reasons, I had to quit studying before the graduation <span className="badge o-bg-secondary fg-primary p-1 rounded-pill"><a href="">why</a></span>.
+                                Due to personal reasons, I had to quit studying before the graduation and continue studying on my own<span className="badge o-bg-secondary fg-primary p-1 rounded-pill"><a href="">why</a></span>.
                             </p>
                         </div>
                     </div>
@@ -109,8 +109,8 @@ export const Experience = () => {
                             <h3 className="fg-primary">National Technological Initiative and other</h3>
                             <p className="fg-primary">
                                 This is the start of my learning path in Computer Science. During my highschool, I participated in several competitions, 
-                                learning numerous technologies which helps me a lot after all these years.
-                                NTI Virtual Reality track was the peak of my competition story where we managed to win the final stage.
+                                learning numerous technologies which helped me a lot after all these years.
+                                NTI Virtual Reality track was the peak of my highschool competition experience as we managed to take the first place at the final national stage.
                             </p>
                         </div>
                     </div>

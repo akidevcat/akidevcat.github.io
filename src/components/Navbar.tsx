@@ -5,7 +5,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-lg fixed-top navbar-dark shadow o-bg-primary d-print-none" role="navigation">
             <div className="container d-flex justify-content-center">
                 <div>
-                    <span className="navbar-brand mb-0 h1">Aki Aoki 🏳️‍⚧️</span>
+                    <span className="navbar-brand mb-0 h1">AkiDev</span>
                 </div>
                 <div className="d-flex">
                     <a className="nav-item nav-link" href="/#introduction">Home</a>
