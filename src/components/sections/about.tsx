@@ -11,16 +11,28 @@ export const About = () => {
                     <div className="col d-grip pe-0">
                         <div className="col align-middle d-flex align-self-center" style={{height: "100%"}}>
                             <div className="container align-self-center" id="about-me-skills">
-                                <span className="badge bg-success ms-1 me-1">C#</span><span className="badge bg-success ms-1 me-1">ASP.NET</span>
-                                <span className="badge bg-success ms-1 me-1">EF</span><span className="badge bg-success ms-1 me-1">T-SQL</span>
+                                <span className="badge bg-success ms-1 me-1">C#</span>
+                                <span className="badge bg-success ms-1 me-1">C++</span>
+                                <span className="badge bg-success ms-1 me-1">Unity</span>
+                                <span className="badge bg-success ms-1 me-1">Godot</span>
+                                <span className="badge bg-success ms-1 me-1">3D Graphics</span>
+                                <span className="badge bg-success ms-1 me-1">VR</span>
+                                <span className="badge bg-success ms-1 me-1">ProcGen</span>
+                                <span className="badge bg-success ms-1 me-1">Python</span>
+                                <span className="badge bg-success ms-1 me-1">GLSL</span>
+                                <span className="badge bg-success ms-1 me-1">HLSL</span>
+                                <span className="badge bg-success ms-1 me-1">ASP.NET</span>
+                                <span className="badge bg-success ms-1 me-1">EF</span>
+                                <span className="badge bg-success ms-1 me-1">T-SQL</span>
+                                <span className="badge bg-success ms-1 me-1">MSSQL</span>
                                 <span className="badge bg-success ms-1 me-1">TypeScript</span>
-                                <span className="badge bg-success ms-1 me-1">Sass</span><span className="badge bg-success ms-1 me-1">React</span>
+                                <span className="badge bg-success ms-1 me-1">Sass</span>
+                                <span className="badge bg-success ms-1 me-1">React</span>
                                 <span className="badge bg-success ms-1 me-1">Bootstrap</span>
-                                <span className="badge bg-success ms-1 me-1">Unity</span><span className="badge bg-success ms-1 me-1">Godot</span>
-                                <span className="badge bg-success ms-1 me-1">Python</span><span className="badge bg-success ms-1 me-1">C++</span>
-                                <span className="badge bg-success ms-1 me-1">GLSL</span><span className="badge bg-success ms-1 me-1">HLSL</span>
-                                <span className="badge bg-success ms-1 me-1">Git</span><span className="badge bg-success ms-1 me-1">JIRA</span>
-                                <span className="badge bg-success ms-1 me-1">Linux</span><span className="badge bg-success ms-1 me-1">Aseprite</span><br/><br/>
+                                <span className="badge bg-success ms-1 me-1">Git</span>
+                                <span className="badge bg-success ms-1 me-1">JIRA</span>
+                                <span className="badge bg-success ms-1 me-1">Linux</span>
+                                <span className="badge bg-success ms-1 me-1">Aseprite</span><br/><br/>
                                 <span className="badge bg-secondary o-fg-primary ms-1 me-1">English</span>
                                 <span className="badge bg-secondary o-fg-primary ms-1 me-1">Russian</span>
                                 <span className="badge bg-secondary o-fg-primary ms-1 me-1"></span>
@@ -29,7 +41,7 @@ export const About = () => {
                     </div>
                     <div className="col-9 d-grip ps-0 mt-2 fg-primary" id="about-me-description">
                         <p className="mb-2">
-                        Hi, glad to see you here! My name is Aki <span className="badge bg-success fg-primary p-1 rounded-pill">she/her</span>, <b>a backend programmer</b>, <b>game engineer</b>, and <b>graphics designer</b>.
+                        Hi, glad to see you here! My name is Aki <span className="badge bg-success fg-primary p-1 rounded-pill">she/her</span>, <b>a backend programmer</b>, <b>game developer</b>, and <b>graphics engineer</b>.
                         I apply my technical skills to solve advanced development problems. And I really, really enjoy developing things!
                         </p>
                         <ul className="nav justify-content-center" id="about-tab" role="tablist">
@@ -83,7 +95,7 @@ export const About = () => {
                 </div>
                 <div className="row justify-content-center mt-2 mb-4 align-items-center">
                     <div className="col-md-3 d-grid mb-4 mt-4 d-flex justify-content-center">
-                        <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button" onClick={() => {window.location.href = "#/cv"}}>Download CV</button>
+                        <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button" onClick={() => window.open("/Aki Aoki CV.pdf", "_blank", 'noopener,noreferrer,download')}>Download CV</button>
                     </div>
                     <div className="col-1 d-grid ms-3 me-4 mt-4 mt-md-0">
                         <a href="https://github.com/akiaoki" target="_blank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="manual" title="GitHub">

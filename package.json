@@ -20,6 +20,7 @@
     "react-scripts": "5.0.0",
     "react-scrollbars-custom": "^4.0.27",
     "react-simple-typewriter": "^3.0.1",
+    "three": "^0.146.0",
     "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
@@ -51,6 +52,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.1.9",
+    "@types/three": "^0.146.0",
     "gh-pages": "^3.2.3"
   }
 }

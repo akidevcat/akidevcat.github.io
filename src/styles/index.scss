@@ -4,6 +4,8 @@
 #introduction {
   background-color: var(--bg-secondary);
   margin: 30vh 0px;
+  margin-bottom: 40vh;
+  //margin-bottom: 3vh;
   padding: 10vh 0px;
   flex-direction: unset;
 }
@@ -12,6 +14,7 @@
   max-width: 50em !important;
   margin: auto;
   margin-top: 40vh;
+  //margin-top: 7vh;
   margin-bottom: 10em;
 
   .container {
@@ -98,6 +101,20 @@
   color: rgba(255, 255, 255, 0.1);
   
   z-index: -1;
+}
+
+#introduction-renderer-section {
+  position: relative;
+}
+
+#introduction-renderer {
+  //position: absolute;
+  display: block;
+  z-index: -1;
+  align-self: center;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-slide-2 {

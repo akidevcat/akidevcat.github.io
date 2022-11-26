@@ -14,7 +14,7 @@ function CV() {
         <div className="page">
           <div className="jumbotron text-start">
             <h1 className="display-4">Aki Aoki</h1>
-            <p className="lead">.NET Full-Stack Developer <span className="float-end small">
+            <p className="lead">Game Developer & Graphics Engineer <span className="float-end small">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-telegram ms-2 me-2" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
               </svg>
@@ -22,38 +22,43 @@ function CV() {
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-envelope-fill ms-2 me-2" viewBox="0 0 16 16">
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
               </svg>
-              <span>aki@desude.su</span>
+              <span>akidevcat@gmail.com</span>
               </span>
             </p>
             <hr/>
             <p className="text-wrap">
-            Hello! My name is Aki <span className="badge cv-bg-secondary fg-primary p-1 rounded-pill">she/her</span> and I enjoy creating new things.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            My name is Aki <span className="badge cv-bg-secondary fg-primary p-1 rounded-pill">she/her</span>, <b>a backend programmer</b>, <b>game developer</b>, and <b>graphics engineer</b>.
+                        I apply my technical skills to solve advanced development problems. And I really, really enjoy developing things!</p>
           </div>
           <div className="row align-items-center">
             <div className="col ms-2 me-2">
               <div className="d-flex mt-3 mb-3">
-                <CVContainer title="Skills">
+                <CVContainer title="Hard Skills">
                   <div className="row ps-3 pe-3">
                     <div className="col">
                       <dl>
 
-                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> Back-end</dt>
+                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> GameDev</dt>
                         <dd className="lh-lg"> 
-                          <span className="badge shadow cv-bg-secondary">.NET Core</span><br/>
-                          <span className="badge shadow cv-bg-secondary">ASP.NET Core</span><br/>
-                          <span className="badge shadow cv-bg-secondary">EF Core</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Unity / Godot</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Scripting (Backend)</span><br/>
+                          <span className="badge shadow cv-bg-secondary">3D Math & Graphics</span><br/>
+                          <span className="badge shadow cv-bg-secondary">CPU & GPU ProcGen</span><br/>
+                          <span className="badge shadow cv-bg-secondary">User Interface</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Multiplayer</span><br/>
                         </dd>
 
-                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> Databases</dt>
+                        {/* <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> Databases</dt>
                         <dd className="lh-lg"> 
                           <span className="badge shadow cv-bg-secondary">MSSQL</span><br/>
-                        </dd>
+                        </dd> */}
 
                         <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> More</dt>
                         <dd className="lh-lg"> 
-                          <span className="badge shadow cv-bg-secondary">Git</span><br/>
-                          <span className="badge shadow cv-bg-secondary">Telegram.Bot</span><br/>
-                          <span className="badge shadow cv-bg-secondary">Python</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Git / Plastic</span><br/>
+                          <span className="badge shadow cv-bg-secondary">JIRA / Trello</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Linux</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Aseprite</span><br/>
                         </dd>
 
                       </dl>
@@ -61,18 +66,22 @@ function CV() {
                     <div className="col">
                       <dl>
       
-                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> Front-end</dt>
+                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> WebDev</dt>
                         <dd className="lh-lg"> 
-                          <span className="badge shadow cv-bg-secondary">React</span><br/>
-                          <span className="badge shadow cv-bg-secondary">Typescript</span><br/>
-                          <span className="badge shadow cv-bg-secondary">Sass</span><br/>
+                          <span className="badge shadow cv-bg-secondary">ASP.NET</span><br/>
+                          <span className="badge shadow cv-bg-secondary">EF Core</span><br/>
+                          <span className="badge shadow cv-bg-secondary">React / Sass</span><br/>
                           <span className="badge shadow cv-bg-secondary">Bootstrap</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Debugging</span><br/>
                         </dd>
       
-                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> Game development</dt>
+                        <dt className="lh-sm mb-1"><span className="cv-card-title-arrow">▼</span> Languages</dt>
                         <dd className="lh-lg"> 
-                          <span className="badge shadow cv-bg-secondary">Unity</span><br/>
-                          <span className="badge shadow cv-bg-secondary">PUN</span><br/>
+                          <span className="badge shadow cv-bg-secondary">C# / C++</span><br/>
+                          <span className="badge shadow cv-bg-secondary">GLSL / HLSL</span><br/>
+                          <span className="badge shadow cv-bg-secondary">Python</span><br/>
+                          <span className="badge shadow cv-bg-secondary">JS / TS</span><br/>
+                          <span className="badge shadow cv-bg-secondary">T-SQL</span><br/>
                         </dd>
       
                       </dl>
@@ -83,12 +92,12 @@ function CV() {
               <div className="d-flex mt-3 mb-3">
                 <CVContainer title="Hobbies">
                   <div className="lh-lg">
-                    <span className="badge cv-point-badge ms-1 me-1">Digital Art</span>
-                    <span className="badge cv-point-badge ms-1 me-1">Piano</span>
-                    <span className="badge cv-point-badge ms-1 me-1">Guitar</span>
-                    <span className="badge cv-point-badge ms-1 me-1">Activism</span>
-                    <span className="badge cv-point-badge ms-1 me-1">Local Travelling</span>
-                    <span className="badge cv-point-badge ms-1 me-1">Cooking</span>
+                    <span className="badge cv-point-badge ms-1 me-1">Games</span>
+                    <span className="badge cv-point-badge ms-1 me-1">Pixel Art</span>
+                    <span className="badge cv-point-badge ms-1 me-1">Piano / Guitar</span>
+                    <span className="badge cv-point-badge ms-1 me-1">Volunteering</span>
+                    <span className="badge cv-point-badge ms-1 me-1">Archery</span>
+                    <span className="badge cv-point-badge ms-1 me-1">Tabletop Role-Play</span>
                     <span className="badge cv-point-badge ms-1 me-1">Blog Writing</span>
                   </div>
                 </CVContainer>
@@ -99,8 +108,8 @@ function CV() {
                   <CVProgress progressValue={100}/>
                   <p className="mt-2 mb-2">English <span className="badge cv-point-badge ms-1 me-1">B2</span></p>
                   <CVProgress progressValue={70}/>
-                  <p className="mt-2 mb-2">Japanese <span className="badge cv-point-badge ms-1 me-1">N5</span></p>
-                  <CVProgress progressValue={10}/>
+                  {/* <p className="mt-2 mb-2">Japanese <span className="badge cv-point-badge ms-1 me-1">N5</span></p>
+                  <CVProgress progressValue={10}/> */}
                 </CVContainer>
               </div>
             </div>
@@ -110,18 +119,21 @@ function CV() {
                   <div className="container ps-0 ms-0 pe-0 me-0">
                     <div className="row text-center">
                       <div className="col ms-2 me-2 ps-0 pe-0">
+                        <h6>Game <br/>Development</h6>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">3D & 2D</div>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">Desktop & Mobile</div>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">VR (Quest 2)</div>
+                      </div>
+                      <div className="col ms-2 me-2 ps-0 pe-0">
                         <h6>Web <br/>Apps</h6>
-                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">Full-Stack</div>
-                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">WebAPI</div>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">BPM</div>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">CRM</div>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">WebApi</div>
                       </div>
                       <div className="col ms-2 me-2 ps-0 pe-0">
-                        <h6>Unity <br/>Projects</h6>
-                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">3D Apps</div>
-                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">Meta Quest</div>
-                      </div>
-                      <div className="col ms-2 me-2 ps-0 pe-0">
-                        <h6>Telegram <br/>Bots</h6>
-                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">State Bots</div>
+                        <h6>Other <br/>Projects</h6>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">Pentesting Hardware</div>
+                        <div className="shadow rounded cv-bg-secondary mt-2 mb-2">Game Hacking</div>
                       </div>
                     </div>
                     <div className="row text-center">
@@ -144,6 +156,7 @@ function CV() {
                 <CVContainer title="Work Experience">
                   <div className="container ps-0 ms-0 pe-0 me-0">
                     <Timeline elements={[
+                      {"subtitle": "2022-2023", "title": "ELMA", "description": ".NET Full-Stack Developer"},
                       {"subtitle": "2021-2022", "title": "Matrix Creators", "description": "Unity C# Developer"},
                       {"subtitle": "2020", "title": "Innopolis University", "description": "Java Developer / Linux"}]}/>
                   </div>
@@ -153,7 +166,8 @@ function CV() {
                 <CVContainer title="Activites / Education">
                   <div className="container ps-0 ms-0 pe-0 me-0">
                     <Timeline elements={[
-                      {"subtitle": "2020-2022", "title": "Innopolis University", "description": "Computer Science"}]}/>
+                      {"subtitle": "2020-2022", "title": "Innopolis University", "description": "Computer Science"},
+                      {"subtitle": "2017-2020", "title": "Highschool State Competitions", "description": "Computer Science / Robotics / Infosec"}]}/>
                   </div>
                 </CVContainer>
               </div>

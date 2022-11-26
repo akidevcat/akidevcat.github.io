@@ -5,10 +5,10 @@ export const Introduction = () => {
         <section id="introduction" className="section-slide-2">
             <div className="section-slide-2-content">
                 <h1 className="title">Hi! I'm <span className="">Aki</span></h1>
-                <h1 className="fg-secondary">And I make
+                <h1 className="fg-secondary">And I
                     <span className="fg-accent">
                         <Typewriter
-                        words={[' Games', ' Web Apps', ' Hardware Projects', ' Pixel Art']}
+                        words={[' Make Games', ' Create ProcGen', ' Code Web Apps', ' Draw Pixel Art']}
                         loop={false}
                         cursor
                         cursorStyle='_'
