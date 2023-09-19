@@ -27,6 +27,9 @@ body {
 .o-bg-secondary {
     background-color: var(--bg-secondary);
 }
+.text-with-shadow {
+    text-shadow: 1px 1px 8px #00000088;
+}
 
 .title {
     color: var(--fg-primary);

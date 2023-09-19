@@ -11,74 +11,71 @@ export const About = () => {
                     <div className="col d-grip pe-0">
                         <div className="col align-middle d-flex align-self-center" style={{height: "100%"}}>
                             <div className="container align-self-center" id="about-me-skills">
-                                <span className="badge bg-success ms-1 me-1">C#</span>
-                                <span className="badge bg-success ms-1 me-1">C++</span>
-                                <span className="badge bg-success ms-1 me-1">Unity</span>
-                                <span className="badge bg-success ms-1 me-1">Godot</span>
-                                <span className="badge bg-success ms-1 me-1">3D Graphics</span>
-                                <span className="badge bg-success ms-1 me-1">VR</span>
-                                <span className="badge bg-success ms-1 me-1">ProcGen</span>
-                                <span className="badge bg-success ms-1 me-1">Python</span>
-                                <span className="badge bg-success ms-1 me-1">GLSL</span>
-                                <span className="badge bg-success ms-1 me-1">HLSL</span>
-                                <span className="badge bg-success ms-1 me-1">ASP.NET</span>
-                                <span className="badge bg-success ms-1 me-1">EF</span>
-                                <span className="badge bg-success ms-1 me-1">T-SQL</span>
-                                <span className="badge bg-success ms-1 me-1">MSSQL</span>
-                                <span className="badge bg-success ms-1 me-1">TypeScript</span>
-                                <span className="badge bg-success ms-1 me-1">Sass</span>
-                                <span className="badge bg-success ms-1 me-1">React</span>
-                                <span className="badge bg-success ms-1 me-1">Bootstrap</span>
-                                <span className="badge bg-success ms-1 me-1">Git</span>
-                                <span className="badge bg-success ms-1 me-1">JIRA</span>
-                                <span className="badge bg-success ms-1 me-1">Linux</span>
-                                <span className="badge bg-success ms-1 me-1">Aseprite</span><br/><br/>
-                                <span className="badge bg-secondary o-fg-primary ms-1 me-1">English</span>
-                                <span className="badge bg-secondary o-fg-primary ms-1 me-1">Russian</span>
+                                <span className="badge bg-success ms-1 me-0">Unity</span>
+                                <span className="badge bg-success ms-1 me-0">Godot</span><br/>
+                                <span className="badge bg-success ms-1 me-0">HLSL</span>
+                                <span className="badge bg-success ms-1 me-0">GLSL</span><br/>
+                                <span className="badge bg-success ms-1 me-0">C#</span>
+                                <span className="badge bg-success ms-1 me-0">C++</span><br/>
+                                <span className="badge bg-success ms-1 me-0">Shader Graph</span><br/>
+                                <span className="badge bg-success ms-1 me-0">VFX Graph</span><br/>
+                                <span className="badge bg-success ms-1 me-0">URP</span>
+                                <span className="badge bg-success ms-1 me-0">SRP</span>
+                                <span className="badge bg-success ms-1 me-0">Graphics</span>
+                                <span className="badge bg-success ms-1 me-0">GPGPU</span>
+                                <span className="badge bg-success ms-1 me-0">3D Math</span>
+                                <span className="badge bg-success ms-1 me-0">NSight</span>
+                                <span className="badge bg-success ms-1 me-0">RendDoc</span><br/>
+                                <span className="badge bg-success ms-1 me-0">PS</span>
+                                <span className="badge bg-success ms-1 me-0">Blender</span><br/>
+                                <span className="badge bg-success ms-1 me-0">Git</span><br/><br/>
                                 <span className="badge bg-secondary o-fg-primary ms-1 me-1"></span>
                             </div>
                         </div>
                     </div>
                     <div className="col-9 d-grip ps-0 mt-2 fg-primary" id="about-me-description">
                         <p className="mb-2">
-                        Hi, glad to see you here! My name is Aki <span className="badge bg-success fg-primary p-1 rounded-pill">she/her</span>, <b>a backend programmer</b>, <b>game developer</b>, and <b>graphics engineer</b>.
-                        I apply my technical skills to solve advanced development problems. And I really, really enjoy developing things!
+                        Hi, glad to see you here! My name is <i>Aki</i> <span className="badge bg-success fg-primary p-1 rounded-pill">she/her</span>, <b>a technical artist</b> and <b>graphics programmer</b>.
+                        I apply my technical skills to solve advanced development problems. And I really, really enjoy creating awesome things!
                         </p>
                         <ul className="nav justify-content-center" id="about-tab" role="tablist">
                             <li className="nav-item" role="presentation">
                                 <a className="nav-link fg-accent active" id="about-gamedev-tab" data-bs-toggle="tab" data-bs-target="#about-gamedev" role="tab" aria-controls="about-gamedev" aria-selected="true">
-                                    : : GameDev : :
+                                    : : Tech Art : :
                                 </a>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <a className="nav-link fg-accent" id="about-web-tab" data-bs-toggle="tab" data-bs-target="#about-web" role="tab" aria-controls="about-web" aria-selected="true">: : Web : :</a>
+                                <a className="nav-link fg-accent" id="about-web-tab" data-bs-toggle="tab" data-bs-target="#about-web" role="tab" aria-controls="about-web" aria-selected="true">
+                                    : : Graphics : :
+                                    </a>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <a className="nav-link fg-accent" id="about-infosec-tab" data-bs-toggle="tab" data-bs-target="#about-infosec" role="tab" aria-controls="about-infosec" aria-selected="true">: : Infosec : :</a>
+                                <a className="nav-link fg-accent" id="about-infosec-tab" data-bs-toggle="tab" data-bs-target="#about-infosec" role="tab" aria-controls="about-infosec" aria-selected="true">
+                                    : : Solo-Indie : :
+                                    </a>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <a className="nav-link fg-accent" id="about-other-tab" data-bs-toggle="tab" data-bs-target="#about-other" role="tab" aria-controls="about-other" aria-selected="true">: : Other : :</a>
+                                <a className="nav-link fg-accent" id="about-other-tab" data-bs-toggle="tab" data-bs-target="#about-other" role="tab" aria-controls="about-other" aria-selected="true">
+                                    : : Hobbies : :</a>
                             </li>
                         </ul>
                         <div className="tab-content mb-4" id="pills-tabContent">
                             <div className="tab-pane fade show active" id="about-gamedev" role="tabpanel" aria-labelledby="about-gamedev-tab">
                                 <p>
-                                    A good chunk of my game development experience is related to <b>procedural generation systems</b> and <b>procedural graphics</b>.
-                                    If interested, please take a look at <i>Planets Infinity</i> and <i>PixelScape</i> below.
-                                    I also worked with a lot of <b>C# Unity/Godot game backend</b>, <b>GLSL/HLSL shaders</b>, <b>multiplayer interactions</b>, <b>mobile and desktop VR</b>, and <b>3D math</b>.
+                                    Whether you need to create a mind-blowing shader, or a unique-looking post-processing effect - I'm here to help!
+                                    My scope of work includes <b>shader creation</b>, <b>VFX creation</b>, <b>graphics programming</b>, <b>general project graphics set-up</b>, <b>optimization</b>, and <b>troubleshooting</b>.
+                                    I also use my math skills to come up with more efficient solutions - take a look at the <b>Analytic Volumetric Fog</b> project below.
                                 </p>
                             </div>
                             <div className="tab-pane fade" id="about-web" role="tabpanel" aria-labelledby="about-web-tab">
                                 <p>
-                                    Mainly, I worked on <b>ASP.NET</b> products with <b>.NET</b> as a backend, <b>T-SQL</b> and <b>NHibernate/Entity Framework</b> for databases, and <b>React/Bootstrap</b> for the frontend.
-                                    My past experience also includes <b>WebApi development</b>, and <b>Telegram Bots</b>. 
-                                    A singificant portion of my work required deep debugging and mind-mapping possible solutions based on limited information.
+                                    During my free time I experiment with Unreal Engine 5 and DirectX 12 graphics. Take a look at my demo projects.
+                                    
                                 </p>
                             </div>
                             <div className="tab-pane fade" id="about-infosec" role="tabpanel" aria-labelledby="about-infosec-tab">
                                 <p>
-                                    Another field I'd like to mention is <b>information security</b>. <b>Back in highschool</b>, I was thrilled by the possibilites of integrating a human-like AI into the <b>game hacking</b>.
-                                    And that's exactly what I tried achieving in my <i>neuralowl</i> project. From time to time, I spend my free time reading <b>CTF</b> writeups, and <b>building pentesting hardware</b>.
+                                    
                                 </p>
                             </div>
                             <div className="tab-pane fade" id="about-other" role="tabpanel" aria-labelledby="about-other-tab">
@@ -88,9 +85,9 @@ export const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <p>
-                        <b>Currently I'm looking for a full-time remote job in the game development industry.</b>
-                        </p>
+                        {/* <p>
+                        <b>Currently I'm not looking for a full-time remote job in the game development industry.</b>
+                        </p> */}
                     </div>
                 </div>
                 <div className="row justify-content-center mt-2 mb-4 align-items-center">
@@ -98,7 +95,7 @@ export const About = () => {
                         <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button" onClick={() => window.open("/Aki Aoki CV.pdf", "_blank", 'noopener,noreferrer,download')}>Download CV</button>
                     </div>
                     <div className="col-1 d-grid ms-3 me-4 mt-4 mt-md-0">
-                        <a href="https://github.com/akiaoki" target="_blank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="manual" title="GitHub">
+                        <a href="https://github.com/akidevcat" target="_blank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="manual" title="GitHub">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                             </svg>

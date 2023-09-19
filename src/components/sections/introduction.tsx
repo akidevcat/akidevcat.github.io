@@ -8,7 +8,7 @@ export const Introduction = () => {
                 <h1 className="fg-secondary">And I
                     <span className="fg-accent">
                         <Typewriter
-                        words={[' Make Games', ' Create ProcGen', ' Code Web Apps', ' Draw Pixel Art']}
+                        words={[' Program 3D Graphics', ' Create Unique Shaders', ' Compose In-Depth VFX', ' Solve Advanced Problems']}
                         loop={false}
                         cursor
                         cursorStyle='_'
@@ -21,6 +21,10 @@ export const Introduction = () => {
                 <br/>
                 <h5 className="fg-primary d-inline-block me-2 mt-1 text-center align-middle">Want to learn more?</h5>
                 <button type="submit" className="btn btn-outline-success rounded-pill" onClick={() => {window.location.href = "#about"}}>Glad you asked!</button>
+                <br/>
+                <br/>
+                <br/>
+                <a href="#contact"><h5 className="fg-accent d-inline-block me-2 mt-1 text-center align-middle">Currently looking for a game development position</h5></a>
             </div>
         </section>
     )
