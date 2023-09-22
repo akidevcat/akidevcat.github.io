@@ -43,7 +43,7 @@ export const Experience = () => {
                             <span className="badge bg-success">Полная Занятость</span>&ensp;
                             <h3 className="fg-primary">ELMA</h3>
                             <p className="fg-primary">
-                                My workload included ELMA development, debugging, and bugfixing as a .NET Full-Stack programmer. During my free time I worked on game prototypes and visual effects.
+                                Будучи .NET разработчицей, мой рабочий процесс включал в себя разработку ELMA, отладку и исправления. В свободное время я работала над игровыми прототипами и визуальными эффектами.
                             </p>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export const Experience = () => {
                             <span className="badge bg-success">Полная Занятость</span>&ensp;
                             <h3 className="fg-primary">Matrix Creators</h3>
                             <p className="fg-primary">
-                                I'd been working on several Unity projects building app architecture, multiplayer interactions, game design, procedural generation systems, user interface, graphics, and other.
+                                Я работала над несколькими Unity проектами, выстраивая их архитектуру, системы процедурной генерации, игровой интерфейс, графику, и прочее.
                             </p>
                         </div>
                     </div>
@@ -85,8 +85,8 @@ export const Experience = () => {
                             <span className="badge bg-success">Летняя Подработка</span>&ensp;
                             <h3 className="fg-primary">Университет Иннополис</h3>
                             <p className="fg-primary">
-                                We successfully had conducted the series of online interactive summer camps based on the Minecraft game. 
-                                My workload included creating game world replica, game logic and design, implementing a fun and open place for people to connect safely during COVID-19.
+                                Совместно с Университетом Иннополис нам получилось провести ряд интерактивных онлайн детских летних лагерей на основе Minecraft.
+                                В мои задачи входило создание игровой реплики университета и окружения, разработка гейм-дизайна и гейм-логики в формате, безопасном для людей во время COVID-19.
                             </p>
                         </div>
                     </div>
@@ -107,8 +107,8 @@ export const Experience = () => {
                             <span className="badge bg-success">Компьютерные Науки</span>&ensp;
                             <h3 className="fg-primary">Университет Иннополис</h3>
                             <p className="fg-primary">
-                                Innopolis University was the place where I gathered a lot of new experience, friends, and started my new chapter in life. I am very grateful to all the people who helped me during that time.
-                                Due to personal reasons, I had to quit studying before the graduation and continue studying on my own<span className="badge o-bg-secondary fg-primary p-1 rounded-pill"><a href="">why</a></span>.
+                                Университет Иннополис стал новой главой в моей жизни, где я смогла завести много новых знакомств и получить огромное количество опыта в сфере компьютерных наук. 
+                                Я рада, что у меня была возможность побывать в таком месте. Тем не менее, из-за личных причин мне пришлось покинуть обучение до момента выпуска и продолжить изучение самостоятельно.
                             </p>
                         </div>
                     </div>
@@ -129,9 +129,9 @@ export const Experience = () => {
                             <span className="badge bg-success">Компьютерные Науки</span>&ensp;
                             <h3 className="fg-primary">Национальная Технологическая Инициатива и другие</h3>
                             <p className="fg-primary">
-                                This is the start of my learning path in Computer Science. During my highschool, I participated in several competitions, 
-                                learning numerous technologies which helped me a lot after all these years.
-                                NTI Virtual Reality track was the peak of my highschool competition experience as we managed to take the first place at the final national stage.
+                                ОНТИ является началом моего пути изучения компьютерных наук. Во время старшей школы я участвовала во многих соревнованиях, 
+                                получая опыт в огромном количестве технологических сфер. 
+                                На финальном этапе ОНТИ в Владивостоке по профилю виртуальной реальности наша команда заняла первое место.
                             </p>
                         </div>
                     </div>

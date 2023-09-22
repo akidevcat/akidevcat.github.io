@@ -19,14 +19,14 @@ function App() {
         <Route path='/ru' element={<NavbarRu/>} />
       </Routes>
       <Navbar/> */}
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path='/' element={[<Navbar/>, <Home/>]} />
         <Route path='/ru' element={[<NavbarRu/>, <HomeRu/>]} />
         <Route path='/cv' element={<CV/>} />
         <Route path='/ru/cv' element={<CVRu/>} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer/>
     </div>
   );

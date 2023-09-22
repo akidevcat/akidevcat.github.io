@@ -20,7 +20,7 @@ export const Introduction = () => {
                 </h1>
                 <br/>
                 <h5 className="fg-primary d-inline-block me-2 mt-1 text-center align-middle">Хочешь узнать больше?</h5>
-                <button type="submit" className="btn btn-outline-success rounded-pill" onClick={() => {window.location.href = "#about"}}>Рада рассказать!</button>
+                <button type="submit" className="btn btn-outline-success rounded-pill" onClick={() => document.getElementById('about')?.scrollIntoView()}>Рада рассказать!</button>
                 <br/>
                 <br/>
                 <br/>

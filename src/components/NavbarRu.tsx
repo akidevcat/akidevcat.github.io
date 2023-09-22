@@ -8,10 +8,10 @@ export const Navbar = () => {
                     <span className="navbar-brand mb-0 h1">AkiDevCat</span>
                 </div>
                 <div className="d-flex">
-                    <a className="nav-item nav-link" href="/ru#introduction">Начало</a>
-                    <a className="nav-item nav-link" href="/ru#about">Обо мне</a>
-                    <a className="nav-item nav-link" href="/ru#projects">Мои Работы</a>
-                    <a className="nav-item nav-link" href="/ru#experience">Опыт</a>
+                    <a className="nav-item nav-link" onClick={() => document.getElementById('introduction')?.scrollIntoView()}>Начало</a>
+                    <a className="nav-item nav-link" onClick={() => document.getElementById('about')?.scrollIntoView()}>Обо мне</a>
+                    <a className="nav-item nav-link" onClick={() => document.getElementById('projects')?.scrollIntoView()}>Мои Работы</a>
+                    <a className="nav-item nav-link" onClick={() => document.getElementById('experience')?.scrollIntoView()}>Опыт</a>
                     <a className="nav-item nav-link" href="/">Switch to English</a>
                 </div>
             </div>
