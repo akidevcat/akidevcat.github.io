@@ -8,11 +8,11 @@ export const Navbar = () => {
                     <span className="navbar-brand mb-0 h1">AkiDevCat</span>
                 </div>
                 <div className="d-flex">
-                    <a className="nav-item nav-link" href="/#introduction">Home</a>
-                    <a className="nav-item nav-link" href="/#about">About</a>
-                    <a className="nav-item nav-link" href="/#projects">Works</a>
-                    <a className="nav-item nav-link" href="/#experience">Experience</a>
-                    <a className="nav-item nav-link" href="/ru">Перейти на Русский</a>
+                    <a className="nav-item nav-link" href="/ru#introduction">Начало</a>
+                    <a className="nav-item nav-link" href="/ru#about">Обо мне</a>
+                    <a className="nav-item nav-link" href="/ru#projects">Мои Работы</a>
+                    <a className="nav-item nav-link" href="/ru#experience">Опыт</a>
+                    <a className="nav-item nav-link" href="/">Switch to English</a>
                 </div>
             </div>
         </nav>

@@ -5,7 +5,7 @@ export const About = () => {
         <section id="about">
             <div className="container">
                 <div className="row mb-4">
-                    <h1 className="title md-5"><span className="title-counter">01.</span> About me</h1>
+                    <h1 className="title md-5"><span className="title-counter">01.</span> Привет!</h1>
                 </div>
                 <div className="row d-flex justify-content-center">
                     <div className="col d-grip pe-0">
@@ -21,9 +21,9 @@ export const About = () => {
                                 <span className="badge bg-success ms-1 me-0">VFX Graph</span><br/>
                                 <span className="badge bg-success ms-1 me-0">URP</span>
                                 <span className="badge bg-success ms-1 me-0">SRP</span><br/>
-                                <span className="badge bg-success ms-1 me-0">Graphics</span>
+                                <span className="badge bg-success ms-1 me-0">Графика</span>
                                 <span className="badge bg-success ms-1 me-0">GPGPU</span><br/>
-                                <span className="badge bg-success ms-1 me-0">3D Math</span>
+                                <span className="badge bg-success ms-1 me-0">3D Мат.</span>
                                 <span className="badge bg-success ms-1 me-0">NSight</span><br/>
                                 <span className="badge bg-success ms-1 me-0">RendDoc</span><br/>
                                 <span className="badge bg-success ms-1 me-0">PS</span>
@@ -35,35 +35,35 @@ export const About = () => {
                     </div>
                     <div className="col-9 d-grip ps-0 mt-2 fg-primary" id="about-me-description">
                         <p className="mb-2">
-                        Hi, glad to see you here! My name is <i>Aki</i> <span className="badge bg-success fg-primary p-1 rounded-pill">she/her</span>, <b>a technical artist</b> and <b>graphics programmer</b>.
-                        I apply my technical skills to solve advanced development problems. And I really, really enjoy creating awesome things!
+                        Рада тебя здесь видеть! Меня зовут <i>Аки</i> <span className="badge bg-success fg-primary p-1 rounded-pill">она/её</span>, я являюсь <b>технической художницей</b> и <b>разработчицей графики</b>.
+                        С помощью своих технических навыков мне нравится решать сложные задачки при разработке игр. И я обожаю создавать реально крутые штуки!
                         </p>
                         <ul className="nav justify-content-center" id="about-tab" role="tablist">
                             <li className="nav-item" role="presentation">
                                 <a className="nav-link fg-accent active" id="about-gamedev-tab" data-bs-toggle="tab" data-bs-target="#about-gamedev" role="tab" aria-controls="about-gamedev" aria-selected="true">
-                                    : : Tech Art : :
+                                    : : Техарт : :
                                 </a>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <a className="nav-link fg-accent" id="about-web-tab" data-bs-toggle="tab" data-bs-target="#about-web" role="tab" aria-controls="about-web" aria-selected="true">
-                                    : : Graphics : :
+                                    : : Графика : :
                                     </a>
                             </li>
                         </ul>
                         <div className="tab-content mb-4" id="pills-tabContent">
                             <div className="tab-pane fade show active" id="about-gamedev" role="tabpanel" aria-labelledby="about-gamedev-tab">
                                 <p>
-                                    Whether you need to create a mind-blowing shader, or a unique-looking post-processing effect - I'm here to help!
-                                    My scope of work includes <b>shader creation</b>, <b>VFX creation</b>, <b>graphics programming</b>, <b>general project graphics set-up</b>, <b>optimization</b>, and <b>troubleshooting</b>.
-                                    I also use my math skills to come up with more efficient solutions - take a look at the <b>Analytic Volumetric Fog</b> project below.
+                                    В основном я работаю с <b>написанием шейдеров</b>, <b>созданием VFX</b>, <b>программированием графики</b>, <b>общей настройкой графики</b>, её <b>оптимизацией</b> и <b>отладкой</b>.
+                                    В своих решениях я использую большое количество математики, чтобы приходить к более эффективным решениям - ниже можно взглянуть на мой проект под названием <b>Аналитический Объемный Туман</b>.
                                 </p>
                             </div>
                             <div className="tab-pane fade" id="about-web" role="tabpanel" aria-labelledby="about-web-tab">
                                 <p>
-                                    I'm extremely interested in lighting algorithms, and new ways to improve the existing ones. 
-                                    Sometimes I use <a href="https://www.shadertoy.com/profile/?show=shaders" className="fg-accent" target="_blank">Shadetoy</a> as a way to showcase different concepts.
-                                    During my free time I experiment with Unreal Engine 5 and low-level DirectX 12 graphics building a custom game engine.
-                                    I'm also deeply invested into the idea of a procedural pixel-art rendering.
+                                    Больше всего меня вдохновляют <b>алгоритмы освещения (света)</b> и возможности, которые открываются в их усовершенствовании и стилизации.
+                                    Иногда для демонстрации разных идей я использую <a href="https://www.shadertoy.com/profile/?show=shaders" className="fg-accent" target="_blank">Shadetoy</a>.
+                                    В свободное время мне нравится экспериментировать с <b>Unreal Engine 5</b> и низкоуровневой <b>DirectX 12</b> графикой в целях создания собственного игрового движка.
+                                    Кроме того я обожаю концепцию <b>рендеринга процедурного pixel-art'а</b>.
+                                
                                 </p>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ export const About = () => {
                 </div>
                 <div className="row justify-content-center mt-2 mb-4 align-items-center">
                     <div className="col-md-3 d-grid mb-4 mt-4 d-flex justify-content-center">
-                        <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button" onClick={() => window.open("/Aki Aoki CV.pdf", "_blank", 'noopener,noreferrer,download')}>Download CV</button>
+                        <button type="button" className="btn btn-outline-primary w-100" id="about-me-cv-button" onClick={() => window.open("/Aki Aoki Резюме.pdf", "_blank", 'noopener,noreferrer,download')}>Сохранить Резюме</button>
                     </div>
                     <div className="col-1 d-grid ms-3 me-4 mt-4 mt-md-0">
                         <a href="https://github.com/akidevcat" target="_blank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="manual" title="GitHub">
